@@ -41,6 +41,17 @@ body{
   justify-content: center;
   background-color: #ecf5ff;
 }
+.hide {
+  text-shadow: 1px 1px;
+  font-family:'Times New Roman', Times, serif;
+  text-align:center;
+  font-size: 2.0rem;
+  color: rgba(65, 63, 63, 0.315);
+  align-content: center;
+  margin-top: 10%;
+  margin-bottom: 5rem;
+}
+
 
 a {
   
@@ -99,7 +110,7 @@ nav ul li:hover {
 }
 
 nav ul li:hover span {
-  transform: translateY(0) scale(2);
+  transform: translateY(0) scale(3);
 }
 
 nav ul li span:nth-child(1) {
@@ -114,6 +125,3 @@ nav ul li span:nth-child(3) {
   --n: 3;
 }
 
-nav ul li span:nth-child(4) {
-  --n: 4;
-}
