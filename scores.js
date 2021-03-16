@@ -1,3 +1,3 @@
-  // show end screen
+  //end screen
   var endScreenEl = document.getElementById("end-screen");
   endScreenEl.removeAttribute("class");
