@@ -22,7 +22,7 @@ var myQuestions = [
  
 
 {
-    question: "Which of the following are capabilities of functions in JavaScript?"
+    question: "Which of the following are capabilities of functions in JavaScript?",
     choices: [
         "A: Return a value",
         "B: Accept parameters and Return a value",
@@ -33,7 +33,7 @@ var myQuestions = [
  
 
 {  
-    question: "	If we want to wrap a block of text around an image, which css property will we use ?"
+    question: "	If we want to wrap a block of text around an image, which css property will we use ?",
     choices: [
         "A: Wrap",
         "B: Float",
@@ -43,7 +43,7 @@ var myQuestions = [
  },
  
  {  
-    question: "The default value of 'position' attribute is _________."
+    question: "The default value of 'position' attribute is _________.",
     choices: [
         "A: Relative",
         "B: Absolute",
@@ -53,14 +53,14 @@ var myQuestions = [
  },
  
  {  
-    question: "Original Name of Javascript is"
+    question: "Original Name of Javascript is",
     choices: [
         "A: Mocha",
         "B: LiveScript",
         "C: Escript"
     ],
     answer: "B"
- },
+ }
  
 
 ];
