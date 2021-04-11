@@ -1,119 +1,80 @@
+body{
+  color:black;
+}
 
-.choice-container {
-   
-    border-radius: 4px;
-    display:flex;
-    margin-bottom: 0.5rem;
-    width: 100%;
-    height: 75px;
-    font-size: 1.4em;
-    font-weight: bold;
-    border: 0.1rem solid  rgba(65, 63, 63, 0.315);
-    background-color:  rgba(65, 63, 63, 0.315);
+/* Choice optons styling*/
+.choice-container{
+display:flex;
+margin-bottom:0.5rem;
+width:100%;
+height:90px;
+border-radius:7px;
+background: rgba(65, 63, 63, 0.315);
+font-size:2rem;
+
 }
 
 .choice-container:hover {
-    cursor: pointer;
-    box-shadow: 0 1.4rem 1.4rem 0   rgb(20, 20, 20);
-    transform: translateY(-0.1rem);
-    transition: transform 150ms;
+  cursor:pointer;
+  box-shadow: 0 1.8rem 1.8rem 0  rgba(8, 6, 6, 0.315);
+  transform: scale(1.02);
+  transform: transform 100ms;
 }
 
 .choice-prefix {
-
-    padding: 1.0rem 1.0rem;
-    color:  white;
+  padding: 0.3rem;
+  color:white;
 }
 
-.choice-text {
-   
-    padding: 1.0rem 1.00em;
-    width: 100%;
-    color:  white;
+.choice-text{
+  padding: 0.3rem;
+  color:white;
 }
-
 
 .correct {
-    background-color: #28a745;
+  background-color: #28a745;
 }
 
 .incorrect {
-    background-color: #dc3545;
-}
-.container {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 80rem;
-    margin: 0 auto;
-    padding: 2rem 2rem;
+  background-color: #dc3545;
 }
 
-.timer {
-    position:fixed;
-    font-size: 1.5rem;
-    top: 30px;
-    right: 30px;
-  }
-
-h1 {
-    position: relative;
-    text-shadow: 1px 1px;
-    font-family:'Times New Roman', Times, serif;
-    text-align:center;
-    font-size: 2.5rem;
-    color: rgba(65, 63, 63, 0.315);
-    align-content: center;
-    margin: 0;
-    margin-bottom: 4rem;
-}
-
-.container>* {
-    width: 100%;
-}
-
-.flex-column {
-    display: flex;
-    flex-direction: column;
-}
-
-.flex-center {
-    justify-content: center;
-    align-items: center;
-}
-
-.justify-center {
-    justify-content: center;
-   
-}
-
-.text-center {
-    text-align: center;
-}
-
-.hidden {
-    display: none;
-}
-
-
+/* Heads up Display*/
 #hud {
-    position: relative;
-    margin-top: 10%;
-    margin-bottom: 0%;
-    display: inline-flex;
-    justify-content: space-between;
+  margin-top: 15%;
+ display:flex;
+ justify-content: space-between;
 }
 
 .hud-prefix {
-    color: black;
-    text-align: center;
-    font-size: 2rem;
+ text-align: center;
+  font-size: 1.5rem;
 }
 
 .hud-main-text {
-    color:black;
-    text-align: center;
+  text-align: right;
+}
+
+/*Progress Bar Stying*/
+#progressBar {
+  width:20rem;
+  height:1rem;
+  border: 0.2rem solid black;
+  margin-top: 2rem;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#progressBarFull{
+  height: 100%;
+  background: black;
+  width:0%;
 
 }
+/*Timer*/
+.timer {
+  
+  text-align: right;
+   color:black;
+    font-size: 1.5rem;
+  }

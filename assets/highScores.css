@@ -1,12 +1,4 @@
-body{
- 
-  margin: 0;
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #ecf5ff;
-}
+
 
 h1, h2{
   text-shadow: 1px 1px;
