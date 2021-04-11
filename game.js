@@ -1,66 +1,68 @@
-var myQuestions = [
-    {
-       question: "JavaScript is interpreted by _________",
-       choices: [
-           "A: Client",
-           "B: Server",
-           "C: Object"
-       ],
-       answer: "A"
-    },
+const question = document.getElementById("question");
+const choices = Array.from(document.getElementsByClassName("choice-text"));
+
+let currentQuestion = {};
+let acceptingAnswers = false;
+let score = 0;
+let questionCounter = 0;
+let availableQuestion = [];
+
+
+
+let questions = [{
+    question: "JavaScript is interpreted by _________",
+    choice1: "Client",
+    choice2: "Server",
+    choice3: "Object",
+    answer: 1
+},
+     
+{
+    question: "The _______ method of an Array object adds and/or removes elements from an array.",
+    choice1: "Reverse",
+    choice2: "Delete",
+    choice3: "Splice",
+    answer: 3
+},
+
+{
+    question: "Which of the following are capabilities of functions in JavaScript?",
+    choice1: "Return a value",
+    choice2: "Accept parameters and Return a value",
+    choice3: "Accept parameters",
+    answer: 3
+},
+
+
+{
+    question: "	If we want to wrap a block of text around an image, which css property will we use ?",
+    choice1: "Wrap",
+    choice2: "Float",
+    choice3: "Align", 
+    answer: 2
+},
+ 
     
+{
+    question: "The default value of 'position' attribute is _________.",
+    choice1: "Relative",
+    choice2: "Absolute",
+    choice3: "Fixed",
+    answer: 1
+},
+
+{
+    question: "Original Name of Javascript is",
+    choice1: "Mocha",
+    choice2: "LiveScript",
+    choice3: "Escript",
+    answer: 2
+},
+
+];
     
-    {
-        question: "The _______ method of an Array object adds and/or removes elements from an array.",
-        choices: [
-            "A: Reverse",
-            "B: Delete",
-            "C: Splice"
-        ],
-        answer: "C"
-     },
      
     
-    {
-        question: "Which of the following are capabilities of functions in JavaScript?",
-        choices: [
-            "A: Return a value",
-            "B: Accept parameters and Return a value",
-            "C: Accept parameters"
-        ],
-        answer: "C"
-     },
+  
+   
      
-    
-    {  
-        question: "	If we want to wrap a block of text around an image, which css property will we use ?",
-        choices: [
-            "A: Wrap",
-            "B: Float",
-            "C: Align"
-        ],
-        answer: "B"
-     },
-     
-     {  
-        question: "The default value of 'position' attribute is _________.",
-        choices: [
-            "A: Relative",
-            "B: Absolute",
-            "C: Fixed"
-        ],
-        answer: "A"
-     },
-     
-     {  
-        question: "Original Name of Javascript is",
-        choices: [
-            "A: Mocha",
-            "B: LiveScript",
-            "C: Escript"
-        ],
-        answer: "B"
-     }
-     
-    
-    ];
