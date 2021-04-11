@@ -16,12 +16,7 @@ h1 {
   margin-bottom: 5rem;
 }
 
-.timer {
-  position: absolute;
-  font-size: 1.5rem;
-  top: 30px;
-  right: 30px;
-}
+
 .wrapper {
   
   margin: 100px auto 0 auto;
@@ -125,4 +120,5 @@ nav ul li span:nth-child(2) {
 nav ul li span:nth-child(3) {
   --n: 3;
 }
+
 
