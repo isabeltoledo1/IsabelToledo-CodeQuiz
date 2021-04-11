@@ -14,30 +14,32 @@
   
 
     <div class="wrapper">
-      <div id="start-screen" class="start">
+      <div id="home" class="flex-column flex-center">
         <h1>Coding Quiz Challenge</h1>
 
         <div class="buttons">
           <nav>
             <ul>
               <li>
-                <a href="game.html">Start Quiz</a> 
+                <a href="game.html" class ="btn">Start Quiz</a> 
                 <span></span><span></span><span></span>
               </li>
 
               <li>
-                <a href="highScores.html">High Scores</a> 
+                <a href="highScores.html" id="highscore-btn" class="btn">High Scores</a> 
                 <span></span><span></span><span></span>
               </li>
             </ul>
           </nav>
         </div>
       </div>
+    </div>
+    
 
     
 
-      <div id="end-screen" class="hide">
-        <h2>Way to go!</h2>
+      <!-- <div id="end-screen" class="hide">
+        <h1>Way to go!</h1>
         <p>Your final score is: <span id="final-score"></span></p>
         <p>
           Please enter your username:
@@ -47,8 +49,8 @@
       </div>
 
       <div id="feedback" class="feedback hide"></div>
-    </div>
+    </div> -->
 
-   
+    <script src="scores.js"></script>
   </body>
 </html>

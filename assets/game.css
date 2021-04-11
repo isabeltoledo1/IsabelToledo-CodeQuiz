@@ -1,12 +1,12 @@
 
 .choice-container {
-    
+   
+    border-radius: 4px;
     display:flex;
     margin-bottom: 0.5rem;
     width: 100%;
     height: 75px;
     font-size: 1.4em;
-
     font-weight: bold;
     border: 0.1rem solid  rgba(65, 63, 63, 0.315);
     background-color:  rgba(65, 63, 63, 0.315);
@@ -14,7 +14,7 @@
 
 .choice-container:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0  rgb(16, 107, 192);
+    box-shadow: 0 1.4rem 1.4rem 0   rgb(20, 20, 20);
     transform: translateY(-0.1rem);
     transition: transform 150ms;
 }
@@ -66,7 +66,7 @@ h1 {
     font-size: 2.5rem;
     color: rgba(65, 63, 63, 0.315);
     align-content: center;
-    margin: 20%;
+    margin: 0;
     margin-bottom: 4rem;
 }
 
@@ -98,3 +98,22 @@ h1 {
 }
 
 
+#hud {
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    color:black;
+    text-align: center;
+
+}
